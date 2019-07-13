@@ -7,11 +7,7 @@
 For this project I examined 2019 data from [New York Citi Bike](https://en.wikipedia.org/wiki/Citi_Bike) one of the largest bike sharing programs in the United States. 
 The data is publicly available on the program's webpage.  See [Citi Bike Data](https://www.citibikenyc.com/system-data).
 
-My resulting products can be found in my GitHub above or by the links below: 
-
-[github.io](https://robeaseab.github.io/Citi-Bikes-Tableau/)
-
-[Tableau](https://public.tableau.com/profile/rob.seaberg#!/vizhome/City_Bikes/2019StartStationPopularity)
+My resulting products can be found here: [Tableau](https://public.tableau.com/profile/rob.seaberg#!/vizhome/City_Bikes/2019StartStationPopularity)
 
 
 I aggregated the data found in the Citi Bike Trip History Logs to build several reports.  I chose to analyze the most recent data (first 6 months of 2019).  I used jupyter lab to import the csv files.  I then merged and reformatted the dataframes and exported the result as a csv for analysis in Tableau.  The questions I explored were: 
