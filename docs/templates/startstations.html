@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Citi Bike</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- CSS Scripts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+<!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto">
+                <a class="nav-link" href="index.html">CITI BIKES HOME</a>
+                <a class="nav-link" href="data.html">The Data</a>
+            
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="">
+            <br>
+            <h1><b>Citi Bikes</b></h1>
+            <h3>New York's Bike Sharing Program</h3>
+            <p>Data Source: <a href="https://www.citibikenyc.com/system-data">Citi Bike System Data</a></p>
+            <p>About the Program: <a href="https://en.wikipedia.org/wiki/Citi_Bike">Citi Bike's Wikipedia Page</a></p>
+            <br>
+        </div>
+        <div class= "row">
+                    <!-- ending station Card -->
+                    <div class="card" style="width: 100rem;">
+                            <img class="card-img-top" src="https://raw.githubusercontent.com/robeaseab/Citi-Bikes-Tableau/master/Resources/output/images/2019%20Start%20Station%20Popularity.png" 
+                            alt="Card image cap">
+                            <div class="card-body">
+                            </div>
+                          </div>
+                        </div>
+
+        
+        <div class="row">
+              <!-- Start Station Card -->
+              <div class="card" style="width: 50rem;">
+                    <img class="card-img-top" src="https://raw.githubusercontent.com/robeaseab/Citi-Bikes-Tableau/master/Resources/output/images/2019%20Start%20Station%20Popularity.png" 
+                    alt="Card image cap">
+                    <div class="card-body">
+                      <h2 class="card-title">Start Station Popularity</h2>
+                      <p class="card-text">Top Starting Station: Grove St Path.  16,000 trips started here.</p>
+                      <p>Stations in the downtown area near the water appear to be more popular starting points. </p>
+                      <a href="startstations.html" class="btn btn-primary">See Full Size Image</a>
+                    </div>
+                  </div>           
+            
+            <!-- ending station Card -->
+                      <div class="card" style="width: 50rem;">
+                            <img class="card-img-top" src="https://raw.githubusercontent.com/robeaseab/Citi-Bikes-Tableau/master/Resources/output/images/2019%20End%20Station%20Popularity.png" 
+                            alt="Card image cap">
+                            <div class="card-body">
+                              <h2 class="card-title">Ending Station Popularity</h2>
+                              <p class="card-text">Top Ending Station: Grove St Path.  19,000 trips ended here. </p>
+                      <p>Compared to starting points, more trips appear to end further away from the water. </p>
+                              <a href="endstations.html" class="btn btn-primary">See Full Size Image</a>
+                            </div>
+                          </div>
+            </div>
+            <div class="row">
+            <!-- Length of Trip by Starting Station Card -->
+            <div class="card" style="width: 50rem;">
+                    <img class="card-img-top" src="https://raw.githubusercontent.com/robeaseab/Citi-Bikes-Tableau/master/Resources/output/images/2019%20Length%20of%20Trip%20by%20Starting%20Station.png" 
+                    alt="Card image cap">
+                    <div class="card-body">
+                      <h2 class="card-title">Length of Trip by Starting Station</h2>
+                      <p class="card-text">Top Station by Length of Ride: Jackson Square</p>
+                      
+                      <a href="length.html" class="btn btn-primary">See Full Size Image</a>
+                    </div>
+                  </div>
+
+             <!-- Ride Length by Age Card -->
+             <div class="card" style="width: 50rem;">
+                    <img class="card-img-top" src="https://raw.githubusercontent.com/robeaseab/Citi-Bikes-Tableau/master/Resources/output/images/2019%20Ride%20Length%20by%20Age.png" 
+                    alt="Card image cap">
+                    <div class="card-body">
+                      <h2 class="card-title">Ride Length by Age</h2>
+                      <p class="card-text">Overall trendline does not show any substantial affect on ride length by age. 
+                          Rider IDs were not factored into this analysis.  Peaks at age 50 and 22 may be caused by individual riders. 
+                      </p>
+                      <a href="age.html" class="btn btn-primary">See Full Size Image</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+            <!-- Rides by Day of the Week Card -->
+            <div class="card" style="width: 50rem;">
+                    <img class="card-img-top" src="https://raw.githubusercontent.com/robeaseab/Citi-Bikes-Tableau/master/Resources/output/images/2019%20Rides%20by%20Day%20of%20the%20Week.png" 
+                    alt="Card image cap">
+                    <div class="card-body">
+                      <h2 class="card-title">Rides by Day of the Week</h2>
+                      <p class="card-text">More rides occured on Wednesday than any other day of the week.</p>
+                      <a href="day.html" class="btn btn-primary">See Full Size Image</a>
+                    </div>
+                  </div>
+                  <!-- Rides by Month Card -->
+                  <div class="card" style="width: 50rem;">
+                        <img class="card-img-top" src="https://raw.githubusercontent.com/robeaseab/Citi-Bikes-Tableau/master/Resources/output/images/2019%20Rides%20by%20Month.png" 
+                        alt="Card image cap">
+                        <div class="card-body">
+                          <h2 class="card-title">Rides by Month</h2>
+                          <p class="card-text">There has been a steady increase in the number of rides per month from February through March.</p>
+                          <a href="month.html" class="btn btn-primary">See Full Size Image</a>
+                        </div>
+                      </div>
+        </div>
+    </div>
+</body>
+
+</html>
